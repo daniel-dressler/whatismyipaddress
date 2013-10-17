@@ -88,13 +88,12 @@
 				field.textContent = "Checking...";
 
 				xmlhttp = new XMLHttpRequest();
-				xmlhttp.open("GET", "http://jsonip.appspot.com/", false);
-				console.error(xmlhttp.send());
+				xmlhttp.open("GET", "http://danieru.com/ip_reflector/reflectIp.php", false);
+				xmlhttp.send();
 
 				var raw = xmlhttp.responseText;
 				console.log(raw);
-				var response = JSON.parse(raw);
-				field.textContent = response.ip;
+				field.textContent = raw;
 			}
 
 			function getLocalIp() {

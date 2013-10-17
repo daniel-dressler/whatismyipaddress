@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,30 +66,30 @@
        transform="matrix(0.93834078,0,0,1.1444503,-41.273556,-86.210882)" />
     <text
        xml:space="preserve"
-       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:91.00000262%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
-       x="238.396"
-       y="491.22244"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:91.00000262%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+       x="239.40614"
+       y="492.73767"
        id="text2985"
        sodipodi:linespacing="91.000003%"><tspan
          sodipodi:role="line"
          id="tspan2987"
-         x="238.396"
-         y="491.22244">My</tspan><tspan
+         x="239.40614"
+         y="492.73767">My</tspan><tspan
          sodipodi:role="line"
-         x="238.396"
-         y="534.9024"
+         x="239.40614"
+         y="529.1377"
          id="tspan3759">IP</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:110px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
-       x="419.27826"
-       y="419.39856"
+       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+       x="288.12317"
+       y="518.82794"
        id="text3761"
        sodipodi:linespacing="125%"
-       transform="matrix(0.95190686,0.30638756,-0.30638756,0.95190686,0,0)"><tspan
+       transform="matrix(0.99935,0.03604979,-0.03604979,0.99935,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3763"
-         x="419.27826"
-         y="419.39856">?</tspan></text>
+         x="288.12317"
+         y="518.82794">?</tspan></text>
   </g>
 </svg>

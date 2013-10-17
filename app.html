@@ -52,32 +52,17 @@
 			<fieldset>
 				<legend>Internet IP</legend>
 				<section>
-				<p id="InternetIpVal" class="ipaddr">
-				140.112.150.100
-				</p>
-				</section>
-			</fieldset>
-			<fieldset>
-				<legend>Local IP</legend>
-				<section>
-				<p id="LocalIpVal" class="ipaddr">
-					40.12.150.1
-				</p>
+				<p id="InternetIpVal" class="ipaddr"></p>
 				</section>
 			</fieldset>
 		</form>
-			<button onClick="checkIp">Recheck IP Addresses</button>
+			<button onClick="checkIp()">Recheck IP Address</button>
 
 			<div id="helpdoc">
 				<h2>What is an Internet IP?</h2>
 				<p>Your Internet IP is the address websites see when you browse
 				them. This is called the WAN (Wide Area Network) address. You will only
 				have a WAN address if you are connected to the internet.</p>
-				<h2>What is a Local IP?</h2>
-				<p>Your Local IP is the address your router has assigned you. This
-				is called the LAN (Local Area Network) address. You will only have a
-				LAN address if you are connected either over WiFi or ethernet. You
-				do not need to connected to the internet to have a LAN address.</p>
 			</div>
 		</div>
 		</section>
@@ -96,15 +81,7 @@
 				field.textContent = raw;
 			}
 
-			function getLocalIp() {
-				var ip = "10.1.12.101";
-				console.log("Local ip: " + ip);
-				var field = document.getElementById("LocalIpVal");
-				field.textContent = ip;
-			}
-
 			function checkIp() {
-				getLocalIp();
 				getInternetIp();
 			}
 			checkIp();

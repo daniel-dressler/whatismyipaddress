@@ -1,7 +1,4 @@
-Building-Blocks
+What Is My IP Address
 ===============
 
-Reusable components for Firefox OS
-
-'style' and 'style_unstable' folders contain all Building Blocks from [gaia's repo](https://github.com/mozilla-b2g/gaia).
-Feel free to use them, although we are using the word 'unstable' :) 
+HTML5 app for Firefox OS. Shows IP addresses and various ifconfig data.

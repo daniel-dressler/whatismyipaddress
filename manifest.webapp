@@ -1,6 +1,6 @@
 {
-  "name": "What Is My IP Address?",
-  "description": "Hows your IP addresses.",
+  "name": "My IP is?",
+  "description": "Displays your phone's internet connected IP address.",
   "launch_path": "/app.html",
   "icons": {
     "128": "/images/myip_logo_128.png",

@@ -1,7 +1,7 @@
 What Is My IP Address
 ===============
 
-HTML5 app for Firefox OS. Shows IP addresses and various ifconfig data.
+HTML5 app for Firefox OS. Shows phone's IP address.
 
 This application is licensed under the Mozilla Public License 2.0
 

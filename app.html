@@ -39,13 +39,13 @@
 
 		<style>
 			#content {
-				margin-top: 1rem;
+				margin: 1rem;
 			}
 			#helpdoc p {
 				font-size: 1em;
 			}
 			.ipaddr {
-				font-size: 1.6em;
+				font-size: 1.5em;
 			}
 			fieldset legend {
 				width: 11.5rem;
@@ -56,11 +56,11 @@
 				margin-right: 0.5rem;
 			}
 			fieldset p {
-				line-height: 1.2em;
+				line-height: 1.4em;
 				text-align: right;
 			}
-			a.recommend {
-				margin-top: 2rem;
+			button {
+				margin-top: 1.5rem;
 			}
 		</style>
 	</head>
@@ -75,7 +75,7 @@
 			<fieldset>
 				<legend>Internet IP</legend>
 				<section>
-				<p class="ipaddr">
+				<p id="InternetIpVal" class="ipaddr">
 				140.112.150.100
 				</p>
 				</section>
@@ -83,19 +83,20 @@
 			<fieldset>
 				<legend>Local IP</legend>
 				<section>
-				<p class="ipaddr">
+				<p id="LocalIpVal" class="ipaddr">
 					40.12.150.1
 				</p>
 				</section>
 			</fieldset>
 		</form>
-			<a class="recommend" role="button" href="#">Recheck IP Addresses</a>
+			<button onClick="checkIp">Recheck IP Addresses</button>
 
 			<div id="helpdoc">
-				<h1>Documentation</h1>
-				<p>Your Internet IP is the address websites see when you browser
+				<h2>What is an Internet IP?</h2>
+				<p>Your Internet IP is the address websites see when you browse
 				them. This is called the WAN (Wide Area Network) address. You will only
 				have a WAN address if you are connected to the internet.</p>
+				<h2>What is a Local IP?</h2>
 				<p>Your Local IP is the address your router has assigned you. This
 				is called the LAN (Local Area Network) address. You will only have a
 				LAN address if you are connected either over WiFi or ethernet. You
@@ -103,6 +104,35 @@
 			</div>
 		</div>
 		</section>
+
+		<script>
+			function getInternetIp() {
+				var field = document.getElementById("InternetIpVal");
+				field.textContent = "Checking...";
+
+				xmlhttp = new XMLHttpRequest();
+				xmlhttp.open("GET", "http://jsonip.appspot.com/", false);
+				console.error(xmlhttp.send());
+
+				var raw = xmlhttp.responseText;
+				console.log(raw);
+				var response = JSON.parse(raw);
+				field.textContent = response.ip;
+			}
+
+			function getLocalIp() {
+				var ip = "10.1.12.101";
+				console.log("Local ip: " + ip);
+				var field = document.getElementById("LocalIpVal");
+				field.textContent = ip;
+			}
+
+			function checkIp() {
+				getLocalIp();
+				getInternetIp();
+			}
+			checkIp();
+		</script>
 	</body>
 </html>
 

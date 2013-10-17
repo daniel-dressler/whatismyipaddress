@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="myip_logo.svg">
+   sodipodi:docname="myip_logo.svg"
+   inkscape:export-filename="/home/danieru/whatismyipaddress/images/myip_logo_128.png"
+   inkscape:export-xdpi="102.26675"
+   inkscape:export-ydpi="102.26675">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -51,38 +54,42 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
+    <path
+       sodipodi:type="arc"
        style="fill:#e74c3c;fill-opacity:1;stroke:none"
-       id="rect3757"
-       width="100"
-       height="100"
-       x="101.52033"
-       y="447.79095" />
+       id="path3784"
+       sodipodi:cx="334.10794"
+       sodipodi:cy="511.17294"
+       sodipodi:rx="53.285545"
+       sodipodi:ry="43.689098"
+       d="m 387.39349,511.17294 a 53.285545,43.689098 0 1 1 -106.57109,0 53.285545,43.689098 0 1 1 106.57109,0 z"
+       transform="matrix(0.93834078,0,0,1.1444503,-41.273556,-86.210882)" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:91%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
-       x="112.63201"
-       y="492.73767"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:91.00000262%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+       x="238.396"
+       y="491.22244"
        id="text2985"
-       sodipodi:linespacing="91%"><tspan
+       sodipodi:linespacing="91.000003%"><tspan
          sodipodi:role="line"
          id="tspan2987"
-         x="112.63201"
-         y="492.73767">My</tspan><tspan
+         x="238.396"
+         y="491.22244">My</tspan><tspan
          sodipodi:role="line"
-         x="112.63201"
-         y="542.73767"
+         x="238.396"
+         y="534.9024"
          id="tspan3759">IP</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
-       x="151.01782"
-       y="530.11334"
+       style="font-size:110px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+       x="419.27826"
+       y="419.39856"
        id="text3761"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       transform="matrix(0.95190686,0.30638756,-0.30638756,0.95190686,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3763"
-         x="151.01782"
-         y="530.11334">?</tspan></text>
+         x="419.27826"
+         y="419.39856">?</tspan></text>
   </g>
 </svg>
